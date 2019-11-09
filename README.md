@@ -1,22 +1,5 @@
 # machine-learning
 
-# coding: utf-8
-
-# # Module 1
-
-#    ### Welcome to the Answer notebook for Module 1 ! 
-# These notebooks have been provided to code and solve all the queries asked in the modules.
-# 
-# This environment has all the necessary libraries pre-installed, and all the Stock, Commodities and Index data files available at the following location - 
-# 
-# 
-
-# #### The problem statements and their corresponding answers are expected to be in the following format - 
-# 
-# 
-
-# #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
-
 # ### Query 1.1 
 # Import the csv file of the stock of your choosing using 'pd.read_csv()' function into a dataframe.
 # Shares of a company can be offered in more than one category. The category of a stock is indicated in the ‘Series’ column. If the csv file has data on more than one category, the ‘Date’ column will have repeating values. To avoid repetitions in the date, remove all the rows where 'Series' column is NOT 'EQ'.
@@ -46,7 +29,7 @@ data=pd.read_csv("TCS.csv")
 # In[8]:
 
 
-data
+print('data')
 
 
 # In[12]:
